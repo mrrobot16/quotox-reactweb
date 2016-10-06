@@ -109,8 +109,7 @@ var AddTodo = React.createClass({
         headers:{
           "Content-Type": "application/json"
         },
-        body:JSON.stringify(todo),
-        cors:true
+        body:JSON.stringify(todo)
     }).then((res)=>{return res.json()}).then((res)=> {console.log("res :", res);},(error)=>{console.log("Error occurred: ", error);})
   }
 
