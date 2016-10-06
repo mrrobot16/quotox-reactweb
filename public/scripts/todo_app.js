@@ -2,8 +2,8 @@ var TodoApp = React.createClass({
   render: ()=> {
     return (
       <div>
-        <TodosList endpoint="http://todo-ang.herokuapp.com/todos"/>
-        <AddTodo endpoint="http://todo-ang.herokuapp.com/todos"/>
+        <TodosList endpoint="https://todo-ang.herokuapp.com/todos"/>
+        <AddTodo endpoint="https://todo-ang.herokuapp.com/todos"/>
       </div>
     );
   }
