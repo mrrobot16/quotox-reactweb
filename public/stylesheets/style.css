@@ -1,0 +1,52 @@
+body {
+  padding: 0;
+  font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 1.4em;
+  /*background: #f5f5f5;*/
+  background: #ffffff;
+  color: #4d4d4d;
+  min-width: 230px;
+  max-width: 550px;
+  margin: 0 auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  font-weight: 300;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3.2rem;
+}
+
+#todos {
+
+}
+
+
+.todo {
+  padding-left: 10px;
+  color:#0e2dff;
+}
+
+.todo li {
+  color:#0e2dff;
+}
+
+input[type="text"] {
+  padding-left: 10px;
+  color: #0e2dff;
+  border-bottom: 1px solid #0e2dff;
+}
+
+input:focus {
+  border-bottom: 1px solid #0e2dff !important;
+}
+
+::-webkit-input-placeholder {
+  color: red;
+}
+
+input[type="checkbox"] {
+	outline: none;
+}
