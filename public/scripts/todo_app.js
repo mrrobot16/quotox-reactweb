@@ -104,15 +104,16 @@ var AddTodo = React.createClass({
         description:this.state.description
       }
     }
-    let headers = new Headers({
-      'Content-Type': 'application/json'
-    });
     return fetch(this.props.endpoint,{
-        headers:headers,
         method:"POST",
-        body:JSON.stringify(todo)
+        headers:{
+          "Content-Type": "application/json"
+        },
+        body:JSON.stringify(todo),
+        cors:true
     }).then((res)=>{return res.json()}).then((res)=> {console.log("res :", res);},(error)=>{console.log("Error occurred: ", error);})
   }
+
 });
 
 ReactDOM.render(
