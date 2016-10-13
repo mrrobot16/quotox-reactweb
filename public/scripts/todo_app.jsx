@@ -115,8 +115,6 @@ class TodosList extends React.Component {
 class AddTodo extends React.Component {
     constructor(props){
       super(props)
-      console.log("this");
-      console.log(this);
       this.state = {description:''};
       this.setTodo = this.setTodo.bind(this)
       this.addTodo = this.addTodo.bind(this);
