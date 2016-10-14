@@ -16,6 +16,7 @@ class Home extends React.Component {
       <div>
         <h1>Home</h1>
         <div className="container detox">
+          <p>Days Alcohol(variable) Free: 271</p>
         </div>
       </div>
     )
