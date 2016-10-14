@@ -1,5 +1,18 @@
 {
+<<<<<<< HEAD
   "dependencies": {
     "express": "^4.14.0"
+=======
+  "name": "quotox-reactweb",
+  "version": "1.0.0",
+  "description": "App to help other quit negative stuff from live",
+  "main": "server.js",
+  "scripts": {
+    "start":"node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+  "express": "^4.14.0"
+>>>>>>> a63e33214dfb29ec7cc3c721173e71f002fd7976
   }
 }

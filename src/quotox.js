@@ -6,6 +6,7 @@ class QuotoxApp extends React.Component{
     return(<Home/>);
   }
 }
+
 class Home extends React.Component {
   // Main Screen
   constructor(){
@@ -21,7 +22,8 @@ class Home extends React.Component {
       </div>
     )
   }
-}
+
+// Quotox App Structure
 
 class Quote extends React.Component {
 // Here we
@@ -40,6 +42,7 @@ class AddDetox extends React.Component {
 class AddQuote extends React.Component {
 // Here we can add quotes only for us
 }
+
 
 
 ReactDOM.render(
