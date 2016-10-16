@@ -2,3 +2,7 @@
 node_modules
 src/libs
 .git
+npm-debug.log
+package_old.json
+.env
+public

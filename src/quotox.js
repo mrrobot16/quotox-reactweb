@@ -14,29 +14,30 @@ class Home extends React.Component {
   }
   render(){
     return(
-      <div>
-        <h1>Home</h1>
-        <div className="container detox">
-          <p>Days Alcohol(variable) Free: 271</p>
-        </div>
+      <div className="home">
+        <Quote/>
+        <Detox/>
       </div>
-    )
+    );
   }
-
+}
 // Quotox App Structure
 
 class Quote extends React.Component {
-// Here we
-// Quote of the day
-// A Lion does not concern himself with the opinion of Sheep
-}
+  constructor(){
+    super();
+  }
 
-class Detox extends React.Component {
-// Here we show how many clean days
-}
-
-class AddDetox extends React.Component {
-// Here we add our Detox object
+  render(){
+    return(
+      <div className="container quote">
+        <h4>Quote of the day</h4>
+          <p>
+            A Lion does not concern himself with the opinion of a sheep.
+          </p>
+      </div>
+    )
+  }
 }
 
 class AddQuote extends React.Component {
@@ -44,8 +45,25 @@ class AddQuote extends React.Component {
 }
 
 
+class Detox extends React.Component {
+  constructor(){
+    super();
+  }
 
-ReactDOM.render(
-  <QuotoxApp/>,
-  document.getElementById('quotox_app')
-);
+  render(){
+    return(
+      <div className="container detox">
+        <p>Days Alcohol Free: 271</p>
+      </div>
+    )
+  }
+}
+
+class AddDetox extends React.Component {
+// Here we add our Detox object
+}
+
+
+
+
+ReactDOM.render(<QuotoxApp/>,document.getElementById('quotox_app'));
