@@ -99,6 +99,10 @@ class AddDetox extends React.Component {
       </div>
     );
   }
+
+  post_detox(){
+    // detox - drug_name why last_time
+  }
 }
 
 
