@@ -17,6 +17,12 @@ class Home extends React.Component {
       <div className="home">
         <Quote/>
         <Detox/>
+
+        <div className="links container">
+          <a href="/detox">Start Detox</a>
+          <br></br>
+          <a href="/quote">Add Quote</a>
+        </div>
       </div>
     );
   }
@@ -42,6 +48,16 @@ class Quote extends React.Component {
 
 class AddQuote extends React.Component {
 // Here we can add quotes only for us
+constructor(){
+  super();
+}
+render(){
+  return(
+    <div className="add-detox">
+    // Add Quote form
+    </div>
+  );
+}
 }
 
 
@@ -60,7 +76,16 @@ class Detox extends React.Component {
 }
 
 class AddDetox extends React.Component {
-// Here we add our Detox object
+  constructor(){
+    super();
+  }
+  render(){
+    return(
+      <div className="add-detox">
+      // Add Detox form
+      </div>
+    );
+  }
 }
 
 
