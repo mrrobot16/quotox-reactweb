@@ -44,20 +44,29 @@ class Quote extends React.Component {
       </div>
     )
   }
+
+  getQuotes(){
+    // get quotes from server
+  }
 }
 
 class AddQuote extends React.Component {
 // Here we can add quotes only for us
-constructor(){
-  super();
-}
-render(){
-  return(
-    <div className="add-detox">
-    // Add Quote form
-    </div>
-  );
-}
+  constructor(){
+    super();
+  }
+  render(){
+    return(
+      <div className="add-detox">
+      // Add Quote form
+      </div>
+    );
+  }
+
+  post_quote(){
+    // post quote to server
+  }
+
 }
 
 
@@ -72,6 +81,10 @@ class Detox extends React.Component {
         <p>Days Alcohol Free: 271</p>
       </div>
     )
+  }
+
+  getDetoxes(){
+    // get your detoxes from server
   }
 }
 
